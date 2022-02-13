@@ -15,7 +15,7 @@ import java.util.List;
  * @version: 1.0.0
  */
 @SpringBootTest
-public class UserTest {
+public class UserWriteTest {
     @PostConstruct
     public List<User> getUser() {
         List<User> users = new ArrayList<>();

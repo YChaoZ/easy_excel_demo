@@ -14,7 +14,7 @@ import java.util.*;
  * @version: 1.0.0
  */
 @SpringBootTest
-public class ConsumerTest {
+public class ConsumerWriteTest {
 
     public List<Consumer> getConsumer() {
         List<Consumer> consumers = new ArrayList<>();
