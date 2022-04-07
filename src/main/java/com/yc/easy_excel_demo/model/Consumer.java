@@ -4,8 +4,10 @@ import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.annotation.format.DateTimeFormat;
 import com.alibaba.excel.annotation.write.style.ContentRowHeight;
 import com.alibaba.excel.annotation.write.style.HeadRowHeight;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,6 +20,8 @@ import java.util.Date;
  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @HeadRowHeight(35) // 表头高度
 @ContentRowHeight(25) // 内容高度
 public class Consumer implements Serializable {
